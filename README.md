@@ -28,8 +28,8 @@ Your instructor should have communicated what submission method to use for this 
 #### 1 [GET] /api/posts
 
 - If there's an error in retrieving the _posts_ from the database:
-  - [] respond with HTTP status code `500`.
-  - [] return the following JSON: `{ message: "The posts information could not be retrieved" }`.
+  - [X] respond with HTTP status code `500`.
+  - [X] return the following JSON: `{ message: "The posts information could not be retrieved" }`.
 
 #### 2 [GET] /api/posts/:id
 
